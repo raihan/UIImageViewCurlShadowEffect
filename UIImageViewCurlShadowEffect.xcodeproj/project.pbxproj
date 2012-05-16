@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA49C5B1563D36A00430053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5A1563D36A00430053 /* UIKit.framework */; };
+		DDA49C5D1563D36A00430053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5C1563D36A00430053 /* Foundation.framework */; };
+		DDA49C5F1563D36A00430053 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5E1563D36A00430053 /* CoreGraphics.framework */; };
+		DDA49C651563D36A00430053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA49C631563D36A00430053 /* InfoPlist.strings */; };
+		DDA49C671563D36A00430053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA49C661563D36A00430053 /* main.m */; };
+		DDA49C6B1563D36A00430053 /* EffectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA49C6A1563D36A00430053 /* EffectAppDelegate.m */; };
+		DDA49C6E1563D36A00430053 /* EffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA49C6D1563D36A00430053 /* EffectViewController.m */; };
+		DDA49C711563D36B00430053 /* EffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA49C6F1563D36B00430053 /* EffectViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDA49C561563D36A00430053 /* UIImageViewCurlShadowEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageViewCurlShadowEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA49C5A1563D36A00430053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDA49C5C1563D36A00430053 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA49C5E1563D36A00430053 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDA49C621563D36A00430053 /* UIImageViewCurlShadowEffect-Info.plist */ = {isa = PBXFileReference; path = "UIImageViewCurlShadowEffect-Info.plist"; sourceTree = "<group>"; };
+		DDA49C641563D36A00430053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA49C661563D36A00430053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA49C681563D36A00430053 /* UIImageViewCurlShadowEffect-Prefix.pch */ = {isa = PBXFileReference; path = "UIImageViewCurlShadowEffect-Prefix.pch"; sourceTree = "<group>"; };
+		DDA49C691563D36A00430053 /* EffectAppDelegate.h */ = {isa = PBXFileReference; path = EffectAppDelegate.h; sourceTree = "<group>"; };
+		DDA49C6A1563D36A00430053 /* EffectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectAppDelegate.m; sourceTree = "<group>"; };
+		DDA49C6C1563D36A00430053 /* EffectViewController.h */ = {isa = PBXFileReference; path = EffectViewController.h; sourceTree = "<group>"; };
+		DDA49C6D1563D36A00430053 /* EffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectViewController.m; sourceTree = "<group>"; };
+		DDA49C701563D36B00430053 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EffectViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA49C531563D36A00430053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA49C5B1563D36A00430053 /* UIKit.framework in Frameworks */,
+				DDA49C5D1563D36A00430053 /* Foundation.framework in Frameworks */,
+				DDA49C5F1563D36A00430053 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA49C4B1563D36900430053 = {
+			isa = PBXGroup;
+			children = (
+				DDA49C601563D36A00430053 /* UIImageViewCurlShadowEffect */,
+				DDA49C591563D36A00430053 /* Frameworks */,
+				DDA49C571563D36A00430053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA49C571563D36A00430053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA49C561563D36A00430053 /* UIImageViewCurlShadowEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA49C591563D36A00430053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA49C5A1563D36A00430053 /* UIKit.framework */,
+				DDA49C5C1563D36A00430053 /* Foundation.framework */,
+				DDA49C5E1563D36A00430053 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA49C601563D36A00430053 /* UIImageViewCurlShadowEffect */ = {
+			isa = PBXGroup;
+			children = (
+				DDA49C691563D36A00430053 /* EffectAppDelegate.h */,
+				DDA49C6A1563D36A00430053 /* EffectAppDelegate.m */,
+				DDA49C6C1563D36A00430053 /* EffectViewController.h */,
+				DDA49C6D1563D36A00430053 /* EffectViewController.m */,
+				DDA49C6F1563D36B00430053 /* EffectViewController.xib */,
+				DDA49C611563D36A00430053 /* Supporting Files */,
+			);
+			path = UIImageViewCurlShadowEffect;
+			sourceTree = "<group>";
+		};
+		DDA49C611563D36A00430053 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA49C621563D36A00430053 /* UIImageViewCurlShadowEffect-Info.plist */,
+				DDA49C631563D36A00430053 /* InfoPlist.strings */,
+				DDA49C661563D36A00430053 /* main.m */,
+				DDA49C681563D36A00430053 /* UIImageViewCurlShadowEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA49C551563D36A00430053 /* UIImageViewCurlShadowEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA49C741563D36B00430053 /* Build configuration list for PBXNativeTarget "UIImageViewCurlShadowEffect" */;
+			buildPhases = (
+				DDA49C521563D36A00430053 /* Sources */,
+				DDA49C531563D36A00430053 /* Frameworks */,
+				DDA49C541563D36A00430053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageViewCurlShadowEffect;
+			productName = UIImageViewCurlShadowEffect;
+			productReference = DDA49C561563D36A00430053 /* UIImageViewCurlShadowEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA49C4D1563D36900430053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DDA49C501563D36900430053 /* Build configuration list for PBXProject "UIImageViewCurlShadowEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDA49C4B1563D36900430053;
+			productRefGroup = DDA49C571563D36A00430053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA49C551563D36A00430053 /* UIImageViewCurlShadowEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA49C541563D36A00430053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA49C651563D36A00430053 /* InfoPlist.strings in Resources */,
+				DDA49C711563D36B00430053 /* EffectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA49C521563D36A00430053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA49C671563D36A00430053 /* main.m in Sources */,
+				DDA49C6B1563D36A00430053 /* EffectAppDelegate.m in Sources */,
+				DDA49C6E1563D36A00430053 /* EffectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA49C631563D36A00430053 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA49C641563D36A00430053 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDA49C6F1563D36B00430053 /* EffectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA49C701563D36B00430053 /* en */,
+			);
+			name = EffectViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA49C721563D36B00430053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDA49C731563D36B00430053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA49C751563D36B00430053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImageViewCurlShadowEffect/UIImageViewCurlShadowEffect-Prefix.pch";
+				INFOPLIST_FILE = "UIImageViewCurlShadowEffect/UIImageViewCurlShadowEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA49C761563D36B00430053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIImageViewCurlShadowEffect/UIImageViewCurlShadowEffect-Prefix.pch";
+				INFOPLIST_FILE = "UIImageViewCurlShadowEffect/UIImageViewCurlShadowEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA49C501563D36900430053 /* Build configuration list for PBXProject "UIImageViewCurlShadowEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA49C721563D36B00430053 /* Debug */,
+				DDA49C731563D36B00430053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA49C741563D36B00430053 /* Build configuration list for PBXNativeTarget "UIImageViewCurlShadowEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA49C751563D36B00430053 /* Debug */,
+				DDA49C761563D36B00430053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA49C4D1563D36900430053 /* Project object */;
+}
