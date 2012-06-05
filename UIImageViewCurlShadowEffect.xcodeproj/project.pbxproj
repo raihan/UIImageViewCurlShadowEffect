@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD68731415651DBC00321E25 /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD68731315651DBC00321E25 /* UIImageView.m */; };
+		DD68731715651F3F00321E25 /* 67D4I6bxX-KCX0svkuOZ.png in Resources */ = {isa = PBXBuildFile; fileRef = DD68731615651F3F00321E25 /* 67D4I6bxX-KCX0svkuOZ.png */; };
 		DDA49C5B1563D36A00430053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5A1563D36A00430053 /* UIKit.framework */; };
 		DDA49C5D1563D36A00430053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5C1563D36A00430053 /* Foundation.framework */; };
 		DDA49C5F1563D36A00430053 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA49C5E1563D36A00430053 /* CoreGraphics.framework */; };
@@ -18,17 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD68731215651DBC00321E25 /* UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageView.h; sourceTree = "<group>"; };
+		DD68731315651DBC00321E25 /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
+		DD68731615651F3F00321E25 /* 67D4I6bxX-KCX0svkuOZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "67D4I6bxX-KCX0svkuOZ.png"; sourceTree = "<group>"; };
 		DDA49C561563D36A00430053 /* UIImageViewCurlShadowEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImageViewCurlShadowEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA49C5A1563D36A00430053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DDA49C5C1563D36A00430053 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDA49C5E1563D36A00430053 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DDA49C621563D36A00430053 /* UIImageViewCurlShadowEffect-Info.plist */ = {isa = PBXFileReference; path = "UIImageViewCurlShadowEffect-Info.plist"; sourceTree = "<group>"; };
+		DDA49C621563D36A00430053 /* UIImageViewCurlShadowEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIImageViewCurlShadowEffect-Info.plist"; sourceTree = "<group>"; };
 		DDA49C641563D36A00430053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDA49C661563D36A00430053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DDA49C681563D36A00430053 /* UIImageViewCurlShadowEffect-Prefix.pch */ = {isa = PBXFileReference; path = "UIImageViewCurlShadowEffect-Prefix.pch"; sourceTree = "<group>"; };
-		DDA49C691563D36A00430053 /* EffectAppDelegate.h */ = {isa = PBXFileReference; path = EffectAppDelegate.h; sourceTree = "<group>"; };
+		DDA49C681563D36A00430053 /* UIImageViewCurlShadowEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageViewCurlShadowEffect-Prefix.pch"; sourceTree = "<group>"; };
+		DDA49C691563D36A00430053 /* EffectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectAppDelegate.h; sourceTree = "<group>"; };
 		DDA49C6A1563D36A00430053 /* EffectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectAppDelegate.m; sourceTree = "<group>"; };
-		DDA49C6C1563D36A00430053 /* EffectViewController.h */ = {isa = PBXFileReference; path = EffectViewController.h; sourceTree = "<group>"; };
+		DDA49C6C1563D36A00430053 /* EffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectViewController.h; sourceTree = "<group>"; };
 		DDA49C6D1563D36A00430053 /* EffectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectViewController.m; sourceTree = "<group>"; };
 		DDA49C701563D36B00430053 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EffectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,12 +82,15 @@
 		DDA49C601563D36A00430053 /* UIImageViewCurlShadowEffect */ = {
 			isa = PBXGroup;
 			children = (
+				DD68731615651F3F00321E25 /* 67D4I6bxX-KCX0svkuOZ.png */,
 				DDA49C691563D36A00430053 /* EffectAppDelegate.h */,
 				DDA49C6A1563D36A00430053 /* EffectAppDelegate.m */,
 				DDA49C6C1563D36A00430053 /* EffectViewController.h */,
 				DDA49C6D1563D36A00430053 /* EffectViewController.m */,
 				DDA49C6F1563D36B00430053 /* EffectViewController.xib */,
 				DDA49C611563D36A00430053 /* Supporting Files */,
+				DD68731215651DBC00321E25 /* UIImageView.h */,
+				DD68731315651DBC00321E25 /* UIImageView.m */,
 			);
 			path = UIImageViewCurlShadowEffect;
 			sourceTree = "<group>";
@@ -150,6 +158,7 @@
 			files = (
 				DDA49C651563D36A00430053 /* InfoPlist.strings in Resources */,
 				DDA49C711563D36B00430053 /* EffectViewController.xib in Resources */,
+				DD68731715651F3F00321E25 /* 67D4I6bxX-KCX0svkuOZ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				DDA49C671563D36A00430053 /* main.m in Sources */,
 				DDA49C6B1563D36A00430053 /* EffectAppDelegate.m in Sources */,
 				DDA49C6E1563D36A00430053 /* EffectViewController.m in Sources */,
+				DD68731415651DBC00321E25 /* UIImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +282,7 @@
 				DDA49C761563D36B00430053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

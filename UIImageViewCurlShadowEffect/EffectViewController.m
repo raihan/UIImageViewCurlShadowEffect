@@ -7,8 +7,10 @@
 //
 
 #import "EffectViewController.h"
+#import "UIImageView.h"
 
 @implementation EffectViewController
+UIImageView *imageView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,6 +22,10 @@
 
 - (void)viewDidLoad
 {
+    imageView=[[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 202, 260)];
+    UIImage* image = [UIImage imageNamed:@"67D4I6bxX-KCX0svkuOZ.png"];
+    [imageView setImage:image borderWidth:3.0 shadowDepth:10.0 controlPointXOffset:30.0 controlPointYOffset:70.0];
+    [self.view addSubview:imageView];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
