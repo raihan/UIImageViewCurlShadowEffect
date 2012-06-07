@@ -2,7 +2,7 @@
 //  UIImageView.h
 //  UIImageViewCurlShadowEffect
 //
-//  Created by Foyzul Karim on 5/17/12.
+//  Created by Abdullah Md. Zubair on 5/16/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
